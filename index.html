@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>DevLexicon – Glosario ADSO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="glosario-app">
+
+    <header class="glosario-header">
+      <div class="logo-circle">
+        <img src="img/sena-logo.png" alt="Logo SENA">
+      </div>
+
+      <h1>DEVLEXICON</h1>
+      <p class="subtitle">Glosario bilingüe de términos de programación – ADSO</p>
+    </header>
+
+    <main>
+      <!-- Buscador -->
+      <section class="search-card">
+        <div class="search-box">
+          <input id="searchInput" type="text"
+                 placeholder="Escribe para buscar un término…" />
+          <span class="icon">🔍</span>
+        </div>
+
+        <button class="hear-btn" id="hearBtn">
+          <span>🔊</span> HEAR
+        </button>
+      </section>
+
+      <!-- Resultados + Información -->
+      <section class="results-wrapper">
+        <aside class="results-list" id="resultsList">
+          <h3>Resultados</h3>
+          <p class="result-empty">Escribe para buscar un término…</p>
+        </aside>
+
+        <article class="detail-card" id="detailCard">
+          <p class="result-empty">Busca un término para ver su definición.</p>
+        </article>
+      </section>
+
+      <!-- Banner inferior -->
+      <section class="banner">
+        <div>
+          <strong>¡ADSO más accesible!</strong>
+          <p>Facilitamos el aprendizaje del vocabulario técnico bilingüe.</p>
+        </div>
+        <button type="button">💬 Comentarios</button>
+      </section>
+
+      <footer>
+        Creado por Aprendices ADSO – SENA San Andrés Isla (2025) ©
+      </footer>
+
+    </main>
+
+  </div>
+
+  <!-- JS -->
+  <script src="app.js"></script>
+
+</body>
+</html>
